@@ -1,0 +1,36 @@
+.machine-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+
+    & .status-icon {
+        align-self: end;
+    }
+
+    & .machine-main-icon {
+        font-size: 60px;
+        margin-bottom: 10px;
+        align-self: center;
+    }
+}
+
+.machine-height {
+    height: 150px;
+}
+
+.machine-height-nav {
+    height: 70px;
+}
+
+.machine-running {
+    background-color: gray;
+}
+
+.machine-alarm {
+    background-color: red;
+}
+
+.machine-warning {
+    background-color: orange;
+}

@@ -1,0 +1,5 @@
+<div class="machine-container" [ngClass]="!nav ? 'machine-height': 'machine-height-nav'" [ngClass]="getBackgroundColor()">
+    <i class="status-icon material-icons">{{ getWarningIcon() }}</i>
+    <i *ngIf="!nav" class="machine-main-icon material-icons">system_update_alt</i>
+    <span>{{ machine?.name }}</span>
+</div>
